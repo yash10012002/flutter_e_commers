@@ -22,7 +22,7 @@ class _OrderItemState extends State<OrderItem> {
       child: Column(
         children: <Widget>[
           ListTile(
-            tileColor: Colors.indigo.shade400,
+            tileColor: Color.fromARGB(255, 234, 110, 48),
             title: Text(
               '\$${widget.order.amount}',
             ),
@@ -41,7 +41,7 @@ class _OrderItemState extends State<OrderItem> {
           if (_expanded)
             Container(
               decoration: BoxDecoration(
-                color: Colors.indigo.shade100,
+                color: Color.fromARGB(255, 233, 150, 114),
               ),
               padding: const EdgeInsets.symmetric(
                 horizontal: 15,
